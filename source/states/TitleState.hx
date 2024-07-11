@@ -580,7 +580,10 @@ class TitleState extends MusicBeatState
 					addMoreText(curWacky[1]);
 				case 13:
 					deleteCoolText();
+				case 14:
+					addMoreText('Moon');
 				case 15:
+					deleteCoolText();
 					addMoreText('Moonlit');
 				case 16:
 					addMoreText('Mayhem'); // credTextShit.text += '\nFunkin';
